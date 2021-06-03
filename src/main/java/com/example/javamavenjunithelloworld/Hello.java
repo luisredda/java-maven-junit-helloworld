@@ -13,6 +13,7 @@ public class Hello {
 
     private int times = 1;
 
+    private int delete_me = 0;
 
     /**
      * Set how many times "Hello!" should be said.
