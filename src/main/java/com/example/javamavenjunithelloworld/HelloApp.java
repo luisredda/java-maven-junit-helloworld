@@ -19,7 +19,7 @@ public class HelloApp {
     public static void main(String[] args) {
 
         int times = DEFAULT_TIMES;
-        int times2 = DEFAULT_TIMES;
+        int times3 = DEFAULT_TIMES;
         
         if (args.length >= 1) {
             try {
