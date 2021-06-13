@@ -22,7 +22,6 @@ public class HelloApp {
         int times3 = DEFAULT_TIMES;
 
         int testBuild = 1;
-        int testBuild2 = 2;
         
         if (args.length >= 1) {
             try {
