@@ -20,6 +20,8 @@ public class HelloApp {
 
         int times = DEFAULT_TIMES;
         int times3 = DEFAULT_TIMES;
+        int times32 = DEFAULT_TIMES;
+
 
         int testBuild = 1;
         int testBuild2 = 1;
