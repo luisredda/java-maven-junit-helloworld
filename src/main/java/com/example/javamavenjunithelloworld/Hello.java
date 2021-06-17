@@ -24,7 +24,7 @@ public class Hello {
      */
     public void setTimes(int times) {
    
-        int delete_me = 0;
+
         int tests_delete = 0;
         if (times < 0 || times > MAXIMUM_AMOUNT_OF_TIMES) {
             throw new IllegalArgumentException(String.format(
