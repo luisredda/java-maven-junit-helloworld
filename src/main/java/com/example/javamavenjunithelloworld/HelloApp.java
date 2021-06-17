@@ -19,8 +19,7 @@ public class HelloApp {
     public static void main(String[] args) {
 
         int times = DEFAULT_TIMES;
-        int times3 = DEFAULT_TIMES;
-        int times32 = DEFAULT_TIMES;
+
 
 
         int testBuild = 1;
