@@ -1,0 +1,35 @@
+pipeline:
+  identifier: Build_luisredda_java_maven_junit_helloworld_1724966949400
+  name: Build java-maven-junit-helloworld
+  orgIdentifier: SE_Sandbox
+  projectIdentifier: ulan
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.Public_Github
+        repoName: luisredda/java-maven-junit-helloworld
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          caching:
+            enabled: true
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
