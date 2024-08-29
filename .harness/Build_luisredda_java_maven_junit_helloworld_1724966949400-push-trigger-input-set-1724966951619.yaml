@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_luisredda_java_maven_junit_helloworld_1724966949400-push-trigger-input-set
+  identifier: Build_luisredda_java_maven_junit_helloworld_1724966949400pushtriggerinputset
+  orgIdentifier: SE_Sandbox
+  projectIdentifier: ulan
+  pipeline:
+    identifier: Build_luisredda_java_maven_junit_helloworld_1724966949400
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
